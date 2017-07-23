@@ -1,0 +1,590 @@
+body {
+    background-color: #ebebea !important;
+  }
+
+
+.row {
+    margin-left: -15px !important;
+    margin-right: 0px !important;
+}
+.heading1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  line-height: 40px;
+  color:#4a4a48;
+  margin:0 !important;
+}
+.heading2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  line-height: 44px;
+  color:#4a4a48;
+  margin:0 !important;
+}
+
+header{
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  height: 64px;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  background-color: white;
+}
+
+.navbar-inverse {
+  background-image: linear-gradient(to bottom, #fff 0px, #fff 100%) !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+    }
+
+.navbar-nav {
+  float:right !important;
+}
+
+a{
+   color: black !important;
+   text-decoration: none !important;
+   font-size: 20px;
+}
+
+.navbar-nav > li > a {
+    padding-left: 8px !important;
+}
+
+
+.nav > li > a:hover {
+  background-color: #ffffff !important;
+  color: darkgrey !important;
+}
+
+
+.logo {
+  padding-left: 24px;
+  margin-top:-20px;
+}
+
+.tekst{
+padding-left: 10px;
+color:black;
+font-size: 30px;
+font-weight: bold;
+}
+
+.tekst1{
+color:darkgrey;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+p {
+    margin: 0px !important;
+}
+/*Mobile header */
+
+@media only screen and (max-width: 640px) {
+  .navbar-nav {
+    float:left !important;
+  }
+  .tekst, .tekst1 {
+    display: none;
+  }
+
+  .h1, .h2, .h3, h1, h2, h3 {
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
+  }
+
+  p {
+      margin: 0px !important;
+  }
+
+.logo {
+  padding-top: 15px;
+}
+.mobile-icons {
+display: inline;
+padding-left: 30px;
+}
+.navbar-toggle {
+    background-color: black !important;
+    margin-top: 16px !important;
+}
+
+.navbar-header {
+  height: 64px;
+}
+
+}
+
+/*Disable mobile images in desktop */
+@media (min-width:641px) {
+  .mobile-icons {
+    display: none;
+  }
+
+
+}
+
+
+/*Banner area - button is made with buttonoptimizer.com */
+
+#content-banner {
+display: flex;
+flex-flow: row wrap;
+text-align: left !important;
+background: #dcd9d5;
+
+}
+
+.banner {
+  display:flex;
+  flex-flow:column nowrap;
+  width: 60%;
+  padding: 32px 40px 32px 24px;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+#banner-right {
+  background-color: #dcd9d5;
+  width: 33%;
+  order:2;
+  padding-top: 180px;
+}
+
+.button_uus {
+    display: inline-block;
+    width: 300px !important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 50px;
+    border: 0px solid #3f3f3d;
+    border-radius: 0px;
+    background: #4a4a48;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4a4a48), to(#4a4a48));
+    background: -moz-linear-gradient(top, #4a4a48, #4a4a48);
+    background: linear-gradient(to bottom, #4a4a48, #4a4a48);
+    text-shadow: #252524 1px 1px 1px;
+    font: normal normal normal 20px arial;
+    color: #ffffff !important;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.button_uus:hover,
+.button_uus:focus {
+    border: 0px solid #4a4a48;
+    background: #595956;
+    background: -webkit-gradient(linear, left top, left bottom, from(#595956), to(#595956));
+    background: -moz-linear-gradient(top, #595956, #595956);
+    background: linear-gradient(to bottom, #595956, #595956);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_uus:active {
+    background: #2c2c2b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2c2c2b), to(#4a4a48));
+    background: -moz-linear-gradient(top, #2c2c2b, #4a4a48);
+    background: linear-gradient(to bottom, #2c2c2b, #4a4a48);
+}
+
+.heading2-banner {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2em;
+  text-align: left;
+  line-height: 38px;
+  color:#4a4a48;
+  margin:0 !important;
+  padding: 24px 0px;
+
+}
+
+/*Banner mobile */
+@media (max-width:640px) {
+  .banner {
+    background-color: #9c9893;
+    height: 180px;
+    width: 100%;
+  }
+  .banner-image {
+    display: none;
+  }
+#banner-right {
+  padding-top: 0px;
+  width: 100%;
+}
+.heading1 {
+  text-align: left;
+  padding: 32px 0px 32px 16px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.heading2-banner {
+  text-align: left !important;
+  padding: 0px 0px 24px 16px;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.button_uus {
+  padding: 8px;
+  margin: 0px 16px 32px 16px !important;
+  width: 90% !important;
+  text-align: center;
+  background: #9c9893 !important;
+
+}
+}
+
+/*Learning area */
+
+.col-sm-8 {
+    width: 59% !important;
+    padding-right: 0px !important;
+}
+
+.width  {
+    min-width: 423px !important;
+    width: 40% !important;
+    padding: 16px 16px 0px 16px;
+    border-left: solid 1px #dcd9d5;
+}
+
+.learning-left
+{
+  padding: 32px 24px 0px 24px;
+}
+
+.learning-heading {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  line-height: 36px;
+  color:#4a4a48;
+  padding: 32px 0px 24px 0px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.learning-text {
+  color: #5b5a58;
+  font-size: 26px;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  line-height:34px;
+
+}
+
+.learning-author {
+  color: #5b5a58;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  line-height:34px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.learning-right-heading, .thesis-right-heading {
+  color: #4a4a48;
+  font-size: 25px;
+  font-family: 'Tahoma';
+  font-weight: 600;
+  line-height:34px;
+  padding-top: 24px;
+}
+
+.learning-link {
+color:#0b8fe0 !important;
+font-size: 24px;
+font-family: 'Times New Roman';
+}
+
+.learning-right-text, .thesis-right-text {
+  color: #5b5a58;
+  font-size: 22px;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  line-height:30px;
+  padding: 8px 0px 8px 0px;
+}
+
+.border {
+  border-bottom:1px solid #dcd9d5;
+}
+
+/*Learning mobile */
+@media (max-width:640px)
+{
+  .learning-heading, .learning-text, .learning-author, .learning-image-desktop {
+    display: none;
+  }
+.border {
+  border-bottom:0px;
+}
+  .learning-image-mobile {
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 16px;
+    }
+
+    .learning-left
+    {
+      padding: 0px 0px 0px 24px;
+    }
+
+    .width  {
+        min-width: inherit !important;
+        width: 100% !important;
+        padding: 8px 0px 0px 16px;
+        border-left: solid 0px #dcd9d5;
+        margin: 0px !important;
+    }
+
+  .learning-link  {
+      padding-left: 32px;
+    }
+.learning-right-heading {
+  padding: 24px 0px 16px 32px;
+}
+.learning-right-text {
+  padding: 0px 0px 16px 32px;
+}
+
+.last-link {
+  padding-bottom: 32px;
+}
+
+.last-margin {
+  margin-bottom: 32px;
+}
+
+}
+
+/*Disable mobile images in desktop */
+@media (min-width:640px) {
+  .learning-image-mobile {
+    display: none !important;
+  }
+.learning-image-desktop {
+  width: 100% !important;
+  padding: 0px 16px 0px 0px;
+}
+}
+
+/*Courses area */
+
+.col-sm-4 {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  }
+
+.courses-text-area {
+  background-color: #ffffff;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  min-height: 220px;
+}
+
+.courses-heading2 {
+margin:0;
+color: #4a4a48;
+font-size: 25px;
+font-family: 'Tahoma';
+font-weight: 600;
+line-height:34px;
+padding-top: 16px;
+}
+
+.courses-heading3 {
+margin:0;
+color: #4a4a48;
+font-size: 22px;
+font-family: 'Tahoma';
+font-weight: normal;
+line-height:22px;
+padding: 8px 0px;
+}
+
+
+.courses-text {
+  color: #5b5a58;
+  font-size: 22px;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  line-height:30px;
+  margin:0px;
+}
+
+.padding-mobile {
+  padding:32px 0px !important;
+}
+
+/*Courses mobile */
+@media (max-width:640px)
+{
+  .courses-heading3, .courses-text {
+    display: none;
+  }
+
+.padding-mobile {
+  padding:32px 0px 16px 0px !important;
+}
+  .courses-heading2 {
+    padding: 0;
+  }
+
+  .row {
+    padding-bottom:0px !important;
+  }
+
+  .heading1 {
+  text-align: center;
+  }
+
+  .courses-text-area {
+    width: 100%;
+    padding: 16px;
+    background-color: #dcd9d5;
+    min-height: 40px;
+    margin-bottom: 8px;
+  }
+
+}
+
+/*Thesis area */
+.thesis-area {
+  background-color: #f3f5f4;
+  padding: 32px 16px 32px 24px;
+}
+
+.youtube {
+  border:1px solid #ebebea;
+  box-shadow: 2px 0px 1px #888888;
+}
+
+.col-sm-6 {
+    width: 41% !important;
+}
+
+.heading2-thesis {
+  text-align: left;
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.col-sm-5-right-a  {
+    min-width: 423px !important;
+    min-height: 168px !important;
+    padding: 32px 0px 16px 16px;
+    border-left: solid 0px #dcd9d5;
+}
+.col-sm-5-right-b  {
+    padding: 0px !important;
+}
+
+.thesis-image-desktop {
+  width: 100%;
+  padding: 0px 0px 16px 0px;
+}
+
+.thesis-text {
+  color: #5b5a58;
+  font-size: 22px;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  line-height:30px;
+  margin:0px;
+}
+.col-sm-5 {
+  width: 40% !important;
+}
+
+/*Thesis mobile */
+@media (max-width:640px)
+{
+.col-sm-8, .col-sm-5-right-a {
+  width: 100% !important;
+  min-height: 1px !important;
+}
+.youtube {
+  width: 100% !important;
+  height: 200px !important;
+  border: 0px !important;
+}
+.heading2-thesis, .thesis-text, .thesis-image-desktop,
+.thesis-right-heading, .thesis-right-text
+{
+  display: none;
+}
+.thesis-area {
+  padding: 0px 0px 24px 0px;
+}
+}
+
+footer{
+  background-color: #f3f5f4;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: solid 1px darkgrey;
+  font-family: Georgia;
+  font-size: 16px;
+  color: #8c8a85;
+  padding: 24px 0px 60px 0px;
+
+}
+
+.text {
+  padding-left: 24px;
+}
+
+.inline{
+ display: inline-flex;
+ float: right;
+ padding-right: 24px;
+ list-style: none !important;
+}
+
+.footer-links {
+  font-family: Georgia;
+  font-size: 16px;
+  color: #8c8a85 !important;
+  padding-left: 16px;
+}
+
+/* Footer mobile */
+
+@media (max-width:640px)
+{
+  .footer-links {
+    display: none;
+  }
+.row {
+  padding: 0px !important;
+  }
+ .col-sm-6 {
+  min-height: 0px !important;
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+.mobile-row {
+    background-color: #f3f5f4 !important;
+  }
+footer {
+  border-top: solid 0px darkgrey !important;
+  padding-bottom: 16px !important;
+  padding-top: 0px !important;
+  font-size: 12px !important;
+}
+}
